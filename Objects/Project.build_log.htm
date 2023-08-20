@@ -1,0 +1,134 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Yu Ougui, haha, LIC=YA39H-WEQ2V-561Q2-9C4XQ-UIXFV-DS519
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  D:\keil5\MDK\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+D:\keil5\Project\Hourglass_fin\Project.uvprojx
+Project File Date:  07/30/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\keil5\MDK\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling MySpi.c...
+compiling Max7219.c...
+Hardware\MySpi.h(7): warning:  #1295-D: Deprecated declaration SPI_R_MISO - give arg types
+  uint8_t SPI_R_MISO();
+Hardware\MySpi.h(8): warning:  #1295-D: Deprecated declaration MySpi_Init - give arg types
+  void MySpi_Init();
+Hardware\MySpi.h(9): warning:  #1295-D: Deprecated declaration SPI_Start - give arg types
+  void SPI_Start();
+Hardware\MySpi.h(10): warning:  #1295-D: Deprecated declaration SPI_Stop - give arg types
+  void SPI_Stop();
+Hardware\MySpi.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+Hardware\Max7219.c(58): warning:  #1-D: last line of file ends without a newline
+  }
+Hardware\Max7219.c: 6 warnings, 0 errors
+compiling MyI2C.c...
+compiling MPU6050.c...
+compiling main.c...
+.\Sys\Timer.h(4): warning:  #1295-D: Deprecated declaration Timer_Init - give arg types
+  void Timer_Init();
+.\Hardware\MPU6050.h(5): warning:  #1295-D: Deprecated declaration MPU6050_Init - give arg types
+  void MPU6050_Init();
+.\Hardware\MPU6050.h(8): warning:  #1295-D: Deprecated declaration Get_Gravity - give arg types
+   int8_t Get_Gravity();
+User\main.c: 3 warnings, 0 errors
+compiling HourGlass.c...
+Hardware\MPU6050.h(5): warning:  #1295-D: Deprecated declaration MPU6050_Init - give arg types
+  void MPU6050_Init();
+Hardware\MPU6050.h(8): warning:  #1295-D: Deprecated declaration Get_Gravity - give arg types
+   int8_t Get_Gravity();
+Hardware\HourGlass.c(82): warning:  #111-D: statement is unreachable
+  					break;
+Hardware\HourGlass.c(90): warning:  #111-D: statement is unreachable
+  					break;
+Hardware\HourGlass.c(98): warning:  #111-D: statement is unreachable
+  					break;
+Hardware\HourGlass.c(106): warning:  #111-D: statement is unreachable
+  				break;
+Hardware\HourGlass.c(114): warning:  #111-D: statement is unreachable
+  					break;
+Hardware\HourGlass.c(122): warning:  #111-D: statement is unreachable
+  					break;
+Hardware\HourGlass.c(130): warning:  #111-D: statement is unreachable
+  				break;
+Hardware\HourGlass.c(138): warning:  #111-D: statement is unreachable
+  				break;
+Hardware\HourGlass.c(140): warning:  #940-D: missing return statement at end of non-void function "if_left_null" 
+  }
+Hardware\HourGlass.c(153): warning:  #111-D: statement is unreachable
+  					break;
+Hardware\HourGlass.c(161): warning:  #111-D: statement is unreachable
+  					break;
+Hardware\HourGlass.c(169): warning:  #111-D: statement is unreachable
+  				break;
+Hardware\HourGlass.c(177): warning:  #111-D: statement is unreachable
+  				break;
+Hardware\HourGlass.c(185): warning:  #111-D: statement is unreachable
+  					break;
+Hardware\HourGlass.c(193): warning:  #111-D: statement is unreachable
+  					break;
+Hardware\HourGlass.c(201): warning:  #111-D: statement is unreachable
+  					break;
+Hardware\HourGlass.c(209): warning:  #111-D: statement is unreachable
+  					break;
+Hardware\HourGlass.c(211): warning:  #940-D: missing return statement at end of non-void function "if_right_null" 
+  }
+Hardware\HourGlass.c(227): warning:  #111-D: statement is unreachable
+  					break;
+Hardware\HourGlass.c(235): warning:  #111-D: statement is unreachable
+  					break;
+Hardware\HourGlass.c(246): warning:  #111-D: statement is unreachable
+  					break;
+Hardware\HourGlass.c(256): warning:  #111-D: statement is unreachable
+  					break;
+Hardware\HourGlass.c(266): warning:  #111-D: statement is unreachable
+  					break;
+Hardware\HourGlass.c(276): warning:  #111-D: statement is unreachable
+  					break;
+Hardware\HourGlass.c(284): warning:  #111-D: statement is unreachable
+  				break;
+Hardware\HourGlass.c(294): warning:  #111-D: statement is unreachable
+  				break;
+Hardware\HourGlass.c(296): warning:  #940-D: missing return statement at end of non-void function "if_down_null" 
+  }
+Hardware\HourGlass.c: 29 warnings, 0 errors
+linking...
+Program Size: Code=11176 RO-data=1952 RW-data=4 ZI-data=1892  
+".\Objects\Project.axf" - 0 Error(s), 38 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  D:\keil5\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
